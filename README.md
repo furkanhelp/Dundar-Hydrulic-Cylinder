@@ -1,4 +1,4 @@
-<img src="../Dundar Hydrulic Cylinder/images/Home Screenshot .png"></img>
+<img src="https://github.com/furkanhelp/Dundar-Hydrulic-Cylinder/assets/128845535/8e692f37-2503-4cbc-9b9a-d4e06d8e3c67"></img>
 
 
 <h1 align="center">Dundar Hydrulic Cylinder Web Page</h1>
@@ -7,11 +7,7 @@
   <h3>
     <a href="https://soft-cendol-d1ece5.netlify.app/" color="white">
       Live
-    </a>
-    <span> | </span>
-    
-   <span> | </span>
-   
+    </a> 
   </h3>
 </div>
 
@@ -44,12 +40,6 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ## What I learned
 Great project if you are just starting out or need to remember the basics like class toggle for hamburger menu.
-
-## Useful resources
-
-1. <a href="https://www.figma.com/">Figma</a> - Paste your design image to check the size of containers, width, etc.
-2. <a href="https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi">Perfect Pixel</a> - Awesome Chrome extension that helps you to match the pixels of the provided design.
-
 
 
 ## Acknowledgments
