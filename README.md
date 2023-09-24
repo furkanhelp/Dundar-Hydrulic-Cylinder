@@ -1,4 +1,4 @@
-<img src="../Dundar Hydrulic Cylinder/images/Home Screenshot .png"></img>
+<img src="![Home Screenshot ](https://github.com/furkanhelp/Dundar-Hydrulic-Cylinder/assets/128845535/8e692f37-2503-4cbc-9b9a-d4e06d8e3c67)"></img>
 
 
 <h1 align="center">Dundar Hydrulic Cylinder Web Page</h1>
