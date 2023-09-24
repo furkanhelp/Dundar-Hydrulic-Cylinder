@@ -8,7 +8,10 @@
     <a href="https://soft-cendol-d1ece5.netlify.app/" color="white">
       Live
     </a>
-    <span> </span>
+    <span> | </span>
+    
+   <span> | </span>
+   
   </h3>
 </div>
 
