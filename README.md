@@ -1,26 +1,17 @@
-<img src="https://github.com/catherineisonline/sunnyside-agency-landing-page-frontendmentor/blob/main/images/project-preview.png?raw=true"></img>
+<img src="../Dundar Hydrulic Cylinder/images/Home Screenshot .png"></img>
 
 
-<h1 align="center">Sunnyside Agency Landing Page</h1>
+<h1 align="center">Dundar Hydrulic Cylinder Web Page</h1>
 
 <div align="center">
   <h3>
-    <a href="https://catherineisonline.github.io/sunnyside-agency-landing-page-frontendmentor/" color="white">
+    <a href="https://soft-cendol-d1ece5.netlify.app/" color="white">
       Live
     </a>
-    <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-QfXrSGu5A">
-      Solution
-    </a>
-   <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef">
-      Challenge
-    </a>
+    <span> </span>
   </h3>
 </div>
-<div align="center">
-   Solution for a challenge from  <a href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef" target="_blank">frontendmentor.io</a>.
-</div>
+
 <br>
 <br>
 <br>
