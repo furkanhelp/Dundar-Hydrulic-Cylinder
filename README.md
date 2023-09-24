@@ -9,13 +9,6 @@
       Live
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-QfXrSGu5A">
-      Solution
-    </a>
-   <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef">
-      Challenge
-    </a>
   </h3>
 </div>
 <div align="center">
