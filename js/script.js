@@ -191,7 +191,63 @@ function redirectToContact2() {
   window.location.href = "contacttr.html";
 }
 
-// Language
+// Helmet
+
+var express =require('express');
+ var app =express();
+ var helmet =require('helmet');
+ ​
+ app.use(helmet());
 
 
+ app.use(
+  helmet.contentSecurityPolicy({
+    useDefaults: true,
+    directives: {
+      "script-src": ["'self'", "securecoding.com"],
+      "style-src": null,
+    },
+  })
+ );
 
+ app.use(
+  helmet.expectCt({
+    maxAge: 96400,
+    enforce: true,
+    reportUri: "https://securecoding.com/report",
+  })
+ );
+
+ app.use(
+  helmet.dnsPrefetchControl({
+    allow: true,
+  })
+ );
+
+
+ app.use(
+  helmet.frameguard({
+    action: "deny",
+  })
+ );
+
+ app.use(helmet.hidePoweredBy());
+
+ app.use(
+  helmet.hsts({
+    maxAge: 123456,
+    includeSubDomains: false,
+  })
+ );
+
+ app.use(helmet.ieNoOpen());
+
+ app.use(helmet.noSniff());
+
+ app.use(
+  helmet.referrerPolicy({
+    policy: ["origin", "unsafe-url"],
+  })
+ );
+
+ app.use(helmet.xssFilter());
