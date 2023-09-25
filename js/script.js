@@ -210,6 +210,34 @@ var express =require('express');
   })
  );
 
+ app.use((req, res, next) => {
+  res.locals.cspNonce = crypto.randomBytes(16).toString("hex");
+  next();
+});
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        scriptSrc: ["'self'", (req, res) => `'nonce-${res.locals.cspNonce}'`],
+      },
+    },
+  })
+);
+
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      useDefaults: false,
+      directives: {
+        defaultSrc: ["'self'"],
+        scriptSrc: ["'self'", "example.com"],
+        objectSrc: ["'none'"],
+        upgradeInsecureRequests: [],
+      },
+    },
+  })
+);
+
  app.use(
   helmet.expectCt({
     maxAge: 96400,
@@ -251,3 +279,10 @@ var express =require('express');
  );
 
  app.use(helmet.xssFilter());
+
+ app.use(
+  helmet({
+    contentSecurityPolicy: false,
+    xDownloadOptions: false,
+  })
+);
