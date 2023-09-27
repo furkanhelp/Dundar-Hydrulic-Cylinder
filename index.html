@@ -19,6 +19,12 @@
   <link rel="stylesheet" type="text/css" href="css/base.css" />
   <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
   <script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("demo-form").submit();
+    }
+  </script>
   <!-- <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/> -->
@@ -29,8 +35,7 @@
 
 </head>
 <body>
-  
-  
+ 
   <!-- TOPBAR -->
   <div class="topbar">
     <div class="containerr">
@@ -62,15 +67,7 @@
 
 <!-- Header-->
   <header class="header" data-header>
-    
-    <!-- <center>
-      <div class="switch">
-        <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-        <label for="language-toggle"></label>
-        <span class="on">EN</span>
-        <span class="off">TR</span>
-      </div>
-    </center> -->
+  
   
     <div class="containerr">
     <div class="header-left">
